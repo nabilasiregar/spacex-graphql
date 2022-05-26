@@ -1,0 +1,5 @@
+.DS_Store
+.env
+report/*
+.byebug_history
+selenium.log

@@ -1,0 +1,179 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.1.6)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
+    backports (3.23.0)
+    builder (3.2.4)
+    byebug (11.1.3)
+    capybara (3.36.0)
+      addressable
+      matrix
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
+    capybara-screenshot (1.0.26)
+      capybara (>= 1.0, < 4)
+      launchy
+    childprocess (3.0.0)
+    chunky_png (1.3.7)
+    concurrent-ruby (1.1.10)
+    cucumber (3.1.2)
+      builder (>= 2.1.2)
+      cucumber-core (~> 3.2.0)
+      cucumber-expressions (~> 6.0.1)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (~> 1.3)
+      gherkin (~> 5.1.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-api (0.9)
+      addressable (= 2.5)
+      cucumber (~> 3.1.0)
+      json-schema (~> 2.8.0)
+      jsonpath (~> 0.8)
+      rest-client (~> 2.0.2)
+    cucumber-core (3.2.1)
+      backports (>= 3.8.0)
+      cucumber-tag_expressions (~> 1.1.0)
+      gherkin (~> 5.0)
+    cucumber-expressions (6.0.1)
+    cucumber-tag_expressions (1.1.1)
+    cucumber-wire (0.0.1)
+    cuke_sniffer (1.1.0)
+      nokogiri (~> 1.6, >= 1.6.8)
+      roxml (~> 3.3, >= 3.3.1)
+    diff-lcs (1.5.0)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.7.6)
+    gherkin (5.1.0)
+    graphql (2.0.7)
+    graphql-client (0.18.0)
+      activesupport (>= 3.0)
+      graphql
+    graphql-ruby (9001.0)
+    http-cookie (1.0.4)
+      domain_name (~> 0.5)
+    i18n (1.10.0)
+      concurrent-ruby (~> 1.0)
+    json (2.6.2)
+    json-schema (2.8.1)
+      addressable (>= 2.4)
+    jsonpath (0.9.9)
+      multi_json
+      to_regexp (~> 0.2.1)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    matrix (0.4.2)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
+    mini_mime (1.1.2)
+    minitest (5.15.0)
+    multi_json (1.15.0)
+    multi_test (1.1.0)
+    netrc (0.11.0)
+    nokogiri (1.13.6-x86_64-darwin)
+      racc (~> 1.4)
+    parallel (1.22.1)
+    parallel_tests (3.8.1)
+      parallel
+    public_suffix (2.0.5)
+    racc (1.6.0)
+    rack (2.2.3)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rake (13.0.6)
+    regexp_parser (2.4.0)
+    report_builder (1.9)
+      json (>= 2.3.0)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    roxml (3.3.1)
+      activesupport (>= 2.3.0)
+      nokogiri (>= 1.3.3)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-retry (0.6.2)
+      rspec-core (> 3.3)
+    rspec-support (3.11.0)
+    rubyzip (1.3.0)
+    selenium-webdriver (3.142.7)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
+    show_me_the_cookies (5.0.1)
+      capybara (>= 2, < 4)
+    site_prism (3.7.2)
+      addressable (~> 2.5)
+      capybara (~> 3.8)
+      site_prism-all_there (>= 0.3.1, < 1.0)
+    site_prism-all_there (0.3.2)
+    site_prism-table (0.2.0)
+      nokogiri
+      site_prism
+    syntax (1.2.2)
+    to_regexp (0.2.1)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.8.1)
+    webdrivers (3.9.4)
+      nokogiri (~> 1.6)
+      rubyzip (~> 1.0)
+      selenium-webdriver (~> 3.0)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+    zeitwerk (2.5.4)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  byebug
+  capybara
+  capybara-screenshot
+  chunky_png (= 1.3.7)
+  cucumber
+  cucumber-api
+  cuke_sniffer
+  dotenv
+  graphql-client
+  graphql-ruby
+  parallel_tests
+  rake
+  report_builder
+  rspec
+  rspec-expectations
+  rspec-retry
+  selenium-webdriver
+  show_me_the_cookies
+  site_prism
+  site_prism-table
+  syntax
+  webdrivers (~> 3.0)
+
+BUNDLED WITH
+   2.2.29
